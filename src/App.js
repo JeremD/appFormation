@@ -27,9 +27,6 @@ export default class App extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
-        <TouchableOpacity style={styles.button}>
-          <Text style={{marginHorizontal: 5}}>Bouton</Text>
-        </TouchableOpacity>
       </View>
     );
   }
